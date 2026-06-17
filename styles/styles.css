@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Scope+One&display=swap');
+
+body{
+    background-color: #fbefe7;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Arima', cursive;
+}
+h1{
+    font-size: 4rem;
+    color: #734432;
+}
+header{
+    color: #401C14;
+}
+ul{
+    list-style: none;
+}
+p{
+    font-family: "Lora", serif;
+}
+nav{
+    font-family: "Lora", serif;
+}
+a{
+    text-decoration: none;
+    color: #401C14;
+}
+.boxmodel{
+    width: 100px;
+    height: 100px;
+    background-color: #734432;
+    margin: 10px;
+    border: 3px solid #401C14;
+    margin: 10px;
+} 
+  
