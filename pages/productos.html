@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <meta name="description" content="ZADIRA | Carteras, accesorios e indumentaria de cuero diseñados en Córdoba.">
+    <link rel="icon" href="../assets/favicon.ico">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar__track">
+            <span>
+            🚚 Envío gratis compras superiores a $100.000· 
+            💸 10% de descuento con transferencia · 
+            💳 3 cuotas sin interés con tarjeta Naranja X · 
+            </span>
+
+            <span>
+            🚚 Envío gratis compras superiores a $100.000· 
+            💸 10% de descuento con transferencia · 
+            💳 3 cuotas sin interés con tarjeta Naranja X
+            </span>
+        </div>
+    </div>
+    <header>
+        <<nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/Logo Zadira.jpeg" alt="Logo de la marca Zadira"></a>  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="productos">
+        <h1>Productos</h1>
+        <div class="categorias">
+            <div class="cat-card" onclick="filtrar('todas')">Todas</div>
+            <div class="cat-card" onclick="filtrar('pulseras')">Pulseras</div>
+            <div class="cat-card" onclick="filtrar('accesorios')">Accesorios</div>
+            <div class="cat-card" onclick="filtrar('carteras')">Carteras</div>
+            <div class="cat-card" onclick="filtrar('indumentaria')">Indumentaria</div>
+        </div>
+    <section class="card-producto">
+        <div class="grid">
+                <article class="card pulseras">
+                    <h3>Pulsera fina estrella</h3>
+                    <img src="../assets/Pulsera-FinaEstrella-publi.png" alt="Pulseras delgadas de cuero en tonos negro, marrón oscuro, magenta, púrpura y café texturizado, cada una decorada con una estrella metálica central y estoperoles plateados" loading="lazy">
+                    <p>$6.000</p>
+                    <button onclick="agregar('Pulsera fina estrella')">Agregar al carrito</button>
+                </article>
+                <article class="card pulseras">
+                    <h3>Pulsera triple lisa</h3>
+                    <img src="../assets/Pulsera-TripleLisa-publi.png" alt="Pulseras anchas de cuero con tiras caladas en colores: negro con bordes rojos, bronce metalizado y negro liso" loading="lazy">
+                    <p>$6.000</p>
+                    <button onclick="agregar('Pulsera triple lisa')">Agregar al carrito</button>
+                </article>
+                <article class="card pulseras">
+                    <h3>Pulsera triple strass</h3>
+                    <img src="../assets/Pulsera-TripleStras-publi.png" alt="Muestrario de tres pulseras anchas de cuero con tiras caladas. Disponibles en marrón texturizado, bronce metalizado y negro, cada una adornada con un gran cristal circular reflectante en el centro y remaches plateados" loading="lazy">
+                    <p>$6.000</p>
+                    <button onclick="agregar('Pulsera triple strass')">Agregar al carrito</button>
+                </article>
+                <article class="card pulseras">
+                    <h3>Pulsera ancha strass</h3>
+                    <img src="../assets/Pulsera-AnchaStras-publi.png" alt="Pulseras anchas de cuero en colores negro y marrón oscuro decoradas con múltiples cristales brillantes y ojales metálicos" loading="lazy">
+                    <p>$6.000</p>
+                    <button onclick="agregar('Pulsera ancha strass')">Agregar al carrito</button>
+                </article>
+                <article class="card pulseras">
+                    <h3>Pulsera fina strass</h3>
+                    <img src="../assets/Pulsera-FinaStras-publi.png" alt="Pulseras anchas de cuero en colores vino y negro decoradas con cristales brillantes y remaches plateados" loading="lazy">
+                    <p>$6.000</p>
+                    <button onclick="agregar('Pulsera fina strass')">Agregar al carrito</button>
+                </article>
+            
+            <article class="card pulseras">
+                <h3>Pulsera ancha estrella</h3>
+                <img src="../assets/Pulsera-AnchaEstrella-publi.png" alt="Pulseras anchas de cuero negro decoradas con dijes de estrella metálicos, cristales brillantes y remaches" loading="lazy">
+                <p>$6.000</p>
+                <button onclick="agregar('Pulsera ancha estrella')">Agregar al carrito</button>
+            </article>
+            <article class="card pulseras">
+                <h3>Pulsera pasador</h3>
+                <img src="../assets/Pulsera-pasador-publi.png" alt="Pulseras de cuero en color negro y bronce metalizado con un gran dije tipo pasante circular metálico de textura rugosa" loading="lazy">
+                <p>$6.000</p>
+                <button onclick="agregar('Pulsera pasador')">Agregar al carrito</button>
+            </article>
+            <article class="card accesorios">
+                <h3>Billetera tipo sobre</h3>
+                <img src="../assets/Billetera-Publi.jpeg" alt="Billetera de cuero marrón ZADIRA con tarjetero frontal de piel de serpiente y correa de mano" loading="lazy">
+                <p>$30.000</p>
+                <button onclick="agregar('Billetera tipo sobre')">Agregar al carrito</button>
+            </article>
+            <article class="card accesorios">
+                <h3>Portalentes</h3>
+                <img src="../assets/Portalentes-Publi.jpeg" alt="Portalentes de cuero artesanales con cordones trenzados y cadenas metálicas en color suela y combinado suela y magenta" loading="lazy">
+                <p>$6.000</p>
+                <button onclick="agregar('Portalentes')">Agregar al carrito</button>
+            </article>
+            <article class="card carteras">
+                <h3>Tote bag Boho black</h3>
+                <img src="../assets/carteraBohonegra.jpg.jpeg" alt="Bolso confeccionado en cuero granulado de color negro. Destaca por tener flecos largos colgando de ambos costados laterales y lleva el logotipo plateado de la marca ZADIRA en la esquina inferior derecha" loading="lazy">
+                <p>$80.000</p>
+                <button onclick="agregar('Tote bag Boho black')">Agregar al carrito</button>
+            </article>
+            <article class="card carteras">
+                <h3>Tote bag Boho beige</h3>
+                <img src="../assets/cartera-boho-beige.jpg.jpeg" alt="Bolso confeccionado en cuero granulado de color beige. Destaca por tener flecos largos colgando de ambos costados laterales y lleva el logotipo plateado de la marca ZADIRA en la esquina inferior derecha" loading="lazy">
+                <p>$80.000</p>
+                <button onclick="agregar('Tote bag Boho beige')">Agregar al carrito</button>
+            </article>
+            <article class="card carteras">
+                <h3>Mini bag Milan</h3>
+                <img src="../assets/carteraMilanpubli.jpg.jpeg" alt="Bolso de mano alargado y de forma cilíndrica horizontal en cuero marrón oscuro, con cierre de cremallera superior y dos asas muy largas para colgar al hombro. Cuenta con una tira estilo cinturón decorativa al frente fijada con una hebilla metálica rectangular" loading="lazy">
+                <p>$80.000</p>
+                <button onclick="agregar('Mini bag Milan')">Agregar al carrito</button>
+            </article>
+            <article class="card indumentaria">
+                <h3>Top Preta</h3>
+                <img src="../assets/Top-preta-publi.jpg.jpeg" alt="Vista delantera y trasera de top halter de cuero marrón con textura arrugada y flecos largos, sistema de cierre mediante tiras y remaches metálicos" loading="lazy">
+                <div class="talles">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <p>$55.000</p>
+                <button onclick="agregar('Top Preta')">Agregar al carrito</button>
+            </article>
+            <article class="card indumentaria">
+                <h3>Top Musa</h3>
+                <img src="../assets/top-musa-publi.jpg.jpeg" alt="Vista frontal y trasera de un top halter de cuero color beige claro. A la izquierda se observa el frente con dos niveles de flecos cortos decorados con tachuelas plateadas en V. A la derecha se muestra el reverso con sistema de cierre mediante tiras y remaches metálicos" loading="lazy">
+                <div class="talles">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <p>$55.000</p>
+                <div class="talles">
+                </div>
+                <button onclick="agregar('Top Musa')">Agregar al carrito</button>
+            </article>
+            <article class="card indumentaria">
+                <h3>Top Duna</h3>
+                <img src="../assets/Top-duna-publi.jpg.jpeg" alt="Vista frontal y posterior de un top halter de cuero sintético negro con textura arrugada. A la izquierda se aprecia el frente liso con terminación en pico inferior y remaches en los costados. A la derecha se muestra la espalda con sistema de cierre mediante tiras y remaches metálicos" loading="lazy">
+                <div class="talles">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <p>$40.000</p>
+                <button onclick="agregar('Top Duna')">Agregar al carrito</button>
+            </article>
+            <article class="card indumentaria">
+                <h3>Top Siena</h3>
+                <img src="../assets/top-siena-publi.jpg.jpeg" alt="Vista frontal y posterior de un top halter confeccionado en dos tonos de cuero. La parte izquierda muestra el frente con la mitad superior en cuero negro texturizado y la mitad inferior en beige claro en forma de pico. La parte derecha detalla la espalda con sistema de cierre mediante tiras y remaches metálicos" loading="lazy">
+                <div class="talles">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <p>$45.000</p>
+                <button onclick="agregar('Top Siena')">Agregar al carrito</button>
+            </article>
+            <article class="card indumentaria">
+                <h3>Top Sia</h3>
+                <img src="../assets/top-sia-publi.jpg.jpeg" alt="Vista frontal y posterior de un top halter romboidal de cuero colormarrón metalizado. La parte izquierda detalla la espalda con sistema de cierre mediante tiras y remaches metálicos" loading="lazy">
+                <div class="talles">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <p>$45.000</p>
+                <button onclick="agregar('Top Sia')">Agregar al carrito</button>
+            </article>
+            <article class="card indumentaria">
+                <h3>Falda </h3>
+                <img src="../assets/falda-publi.jpg.jpeg" alt="Falda de cuero marrón oscuro arrugado, con corte asimétrico cruzado al frente decorado con una hilera de tachuelas doradas en el borde inferior" loading="lazy">
+                <div class="talles">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <p>$50.000</p>
+                <button onclick="agregar('Falda')">Agregar al carrito</button>
+            </article>
+        </div>
+        <script>
+            function filtrar(categoria){
+                let productos = document.querySelectorAll('.card');
+
+                productos.forEach(p => {
+                    if(categoria === 'todas'){
+                        p.style.display = 'block';
+                    } else {
+                        p.style.display = p.classList.contains(categoria) ? 'block' : 'none';
+                    }
+                });
+            }
+
+            function agregar(producto){
+                alert("🛒 Agregado al carrito: " + producto);
+            }
+        </script>
+    </main>
+    <footer class="footer">
+       <section class="footer-cta">
+            <div class="cta-box">
+                <p> Con tu primera compra obtenés un <strong>10% OFF</strong> en tu próxima orden.</p>
+                <a href="https://wa.me/5493511234567" class="btn-cta" target="_blank">Registrarme</a>
+            </div>
+        </section>
+        <div class="footer-container">
+            <div class="footer-col">
+            <h4>Navegación</h4>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li>
+                        <a href="./productos.html">Productos</a>
+                        <ul class="footer-submenu">
+                            <li><a href="./productos.html#carteras">Carteras</a></li>
+                            <li><a href="./productos.html#accesorios">Accesorios</a></li>
+                            <li><a href="./productos.html#indumentaria">Indumentaria</a></li>
+                            <li><a href="./productos.html#pulseras">Pulseras</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./preguntasfrecuentes.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Seguinos</h4>
+                <ul>
+                    <li><a href="https://wa.me/5493511234567">WhatsApp</a></li>
+                    <li><a href="https://instagram.com/zadira.bags">Instagram</a></li>
+                    <li><a href="https://tiktok.com/@zadira.bags">TikTok</a></li>
+                </ul>
+            </div>     
+            <div class="footer-col">
+            <h4>ZADIRA</h4>
+            <p>Diseño de indumentaria y accesorios hechos con dedicación, pensados para acompañarte todos los días.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <p>© 2025 Zadira Argentina. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
